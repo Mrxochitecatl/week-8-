@@ -1,0 +1,73 @@
+h1{
+   
+        color:green;
+        background-color: darkred;
+}
+h2 {
+    color:orangered
+}
+p {
+    color:salmon;
+    background-color: brown;
+}
+
+body{
+    background-color: #F5F5DC;
+}
+.anything {color: beige; font-family: arial;}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  body {
+    background-image: url("https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202243/0005/wooden-chess-board-game-o.jpg");
+    background-color: #F5F5DC;
+  } body
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  html {
+    height: 1000px;
+    background-color: red;
+    background-image: url("https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202243/0005/wooden-chess-board-game-o.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    }
+  
+    body {
+        height: 100%;
+        background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+        background-size: 100% 100%;
+        mix-blend-mode: difference;
+        }
+        .container {
+            overflow: hidden;
+          }
+          
+          .sliding-background {
+            background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/chess-and-war-bill-scott.jpg") repeat-x;
+            height: 560px;
+            width: 5076px;
+            animation: slide 60s linear infinite;
+          }
+          
+          @keyframes slide{
+            0% {
+              transform: translate3d(0, 0, 0);
+            }
+            100% {
+              transform: translate3d(-1692px, 0, 0);
+            }
+          }
+          
